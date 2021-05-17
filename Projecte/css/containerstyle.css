@@ -1,0 +1,62 @@
+/*
+Aquest codi s'encarrega de estilitzar la interfície gràfica del contenidor de missatges 
+es distingeix un estil per a cada tipus de missatge control, escrit per el propi usuari, 
+i rebut per un altre usuari.
+*/
+.container {
+    margin-bottom: 65px;
+}
+
+
+body{
+    background-color: #e4e4e4;
+}
+
+
+.container p {
+    display: block;
+}
+ 
+
+.propi{
+    background-color: rgb(52, 163, 108);
+    word-wrap: break-word;
+    padding: 12px 12px;
+    border-radius: 5px;
+    position: relative;
+    margin: 0 0 0 50%;
+    height: auto;
+    display: block;
+    width: fit-content;
+    text-align: right;
+}
+
+
+.altre_usuari{
+    background-color: rgb(63, 63, 63);
+    word-wrap: break-word;
+    padding: 12px 12px;
+    border-radius: 5px;
+    position: relative;
+    height: auto;
+    display: block;
+    width: 50%;
+    text-align: left;
+
+}
+
+
+.msg_control{
+  background-color: rgb(255, 229, 142);
+  font-size: small;
+  word-wrap: break-word;
+  padding: 6px 6px;
+  border-radius: 5px;
+  position: relative;
+  height: auto;
+  display: block;
+  width: 50%;
+  text-align: center;
+  color: black;
+  margin: 0 0 0 25%;
+}

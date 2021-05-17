@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Chat</title>
+        <!-- Import dels estils de css -->
+        <link rel="stylesheet" href="css/containerstyle.css">
+        <link rel="stylesheet" href="css/pushbarstyle.css">
+        <link rel="stylesheet" href="css/inputmessagestyle.css">
+    </head>
+    
+    <!-- Administració del menu de barra lateral anomenat pushbar -->
+    <nav role='navigation'>
+        <div id="menuToggle">
+        <input type="checkbox"/>
+
+        <span></span>
+        <span></span>
+        <span></span>
+        
+        <ul id="menu"></ul>
+        </div>
+    </nav>
+
+    <body>
+        <!-- Container on s'hi van afegint els missatges -->
+        <div class="container"></div>
+        
+        <!-- Codi encarregat de administar la entrada de dades i el boto de enviar -->
+        <div class="form">
+            <form onsubmit="app.doSendMessage(); return false;">
+                    <div class="placeholder">
+                    </div>
+                    <input id="missatge_a_enviar" class="input-message" type="text" placeholder ="Què vols escriure?" >
+                    <button type="submit" id="button" >Enviar</button>
+            </form>
+        </div>
+
+        <!-- Import del srcip del administrador del chat desde el client -->
+        <script src="js/webpage_client.js"></script>
+    </body>
+</html>

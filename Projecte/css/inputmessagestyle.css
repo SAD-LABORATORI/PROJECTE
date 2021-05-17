@@ -1,0 +1,60 @@
+/*
+Aquest menú s'encarrega de administrar el estil i froma tant de la entrada de informació
+on un pot escriure com del boto encarregat de enviar un cop s'ha escrit
+*/
+
+.form {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #4d4d4d;
+    border-top: 1px solid #ffffff;
+    padding: 5px 10px;
+}
+
+
+.form .placeholder{
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+.form .input-message{
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+.form button {
+    display: inline-block;
+    background-color: #686868;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+.form .input-message {
+    float: left;
+    font-family: "Avenir Next", "Avenir", sans-serif;
+    width: 75%;
+    padding: 7px;
+    background-color: #e4e4e4;
+    border: 1px solid #646464;
+    border-radius: 15px;
+    width: -webkit-fill-available;
+}
+
+
+.form button {
+    position: relative;
+    width: 20%;
+    float: right;
+    color: rgb(0, 0, 0);
+    font-family: "Avenir Next", "Avenir", sans-serif;
+    padding: 7px 10px;
+    border-radius: 15px;
+    background-color: #e4e4e4;
+    border: 1px solid #646464;
+}
