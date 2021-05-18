@@ -49,7 +49,7 @@ app.doSendMessage = function () {
 
 /*
 Aquesta funció inicialitza el programa i administra el mateix. Al començar
-executa el promt que et pregunta el nom, fins que no posis un nom no he deixa continuar.
+executa el promt que et pregunta el nom, fins que no posis un nom no et deixa continuar.
 A continuació crida la funció onmessage que s'encarrega de llegir els diferents missatges
 enviats per el servidor distingir-los i fer els canvis corresponents.
 */
