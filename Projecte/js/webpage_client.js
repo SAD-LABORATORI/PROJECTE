@@ -28,7 +28,7 @@ app.print = function (message) {
 }
 
 /*
-Aqueta funció administra els missatges que nosaltres enviem.
+Aquesta funció administra els missatges que nosaltres enviem.
 Llegeix el valor del missatge que hem escrit, només agafarà el missatge en cas
 de que no estigui vuit, despres crea el format del missatge i crida la funció
 app.print afegint el teu missatge al container.
